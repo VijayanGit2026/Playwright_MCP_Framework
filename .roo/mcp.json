@@ -1,0 +1,24 @@
+{
+	"mcpServers": {
+		"playwright-framework": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			]
+		},
+		"playwright-test-framework": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"playwright",
+				"run-test-mcp-server"
+			],
+			"tools": [
+				"*"
+			],
+			"disabled": true,
+			"alwaysAllow": []
+		}
+	}
+}

@@ -1,0 +1,25 @@
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Playwright reports and test output
+/test-results/
+/playwright-report/
+/blob-report/
+/allure-results/
+/allure-report/
+
+# Browser artifacts
+*.webm
+*.trace
+trace.zip
+
+# Authentication and local artifacts
+.auth/
+.playwright-mcp/
+artifacts/
